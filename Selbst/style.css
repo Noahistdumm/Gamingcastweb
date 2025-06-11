@@ -1,0 +1,35 @@
+video {
+    display: block;
+    margin: 10 auto;
+    }
+    #ueber {
+      background-color: #4CAF50; /* grüner Hintergrund */
+      color: white;              /* weiße Schrift */
+      padding: 10px 20px;        /* Innenabstand */
+      border: none;              /* Kein Rahmen */
+      border-radius: 5px;        /* Abgerundete Ecken */
+      cursor: pointer;           /* Mauszeiger wird zur Hand */
+      font-size: 16px;           /* Schriftgröße */
+      transition: background-color 0.3s ease; /* sanfter Hover-Effekt */
+    }
+    
+    #ueber:hover {
+      background-color: #044e08; /* dunkleres Grün beim Hover */
+    }
+    #add {
+        background-color: red;
+        color: black;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+    }
+    #add:hover {
+    background-color: yellow;
+    }
+    #a {
+        background-color: green;
+        color: black;
+    }
