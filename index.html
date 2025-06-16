@@ -27,11 +27,24 @@
 <video src="/v1.mp4" controls width="400" height="225">Ihr Browser kann diesen Film nicht wiedergeben.
     <br> Dieses Video kannst du wegen deinem Browser nicht sehen... Aber du kannst ihn unter diesem Link:<a href"https://open.spotify.com/episode/39XMrK2Fk4TY17YCIIDzeA?si=7ZmSBFShQHCA01y_4vk0pQ">abrufen</a></video>
       <form id="controls1">
-    <label for="newtask"><h1>Kommentare</h1></label>
-    <input id="newtask">
-    <button type="button" id="add">Kommentieren</button>
-    </form>
-    <ul id="taskList">
+   <h1>Kommentare (lokal)</h1>
+<input id="newtask">
+<button type="button" id="add">Kommentieren</button>
+</form>
+<ul id="taskList">
+</ul>
+
+<h2>Kommentare von anderen (öffentlich)</h2>
+<!-- Utterances Kommentarsystem -->
+<div id="comments"></div>
+<script src="https://utteranc.es/client.js"
+        repo="noahistdumm/Gamingcastweb"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+
     <li>
     <input type="checkbox" checked id="x1">
     <label for="x1"><span class="text">Hallo Welt!</span></label>
