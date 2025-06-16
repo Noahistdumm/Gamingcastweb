@@ -1,4 +1,12 @@
 'use scrict'
+        src="https://utteranc.es/client.js"
+        repo="DEIN-GITHUB-USERNAME/DEIN-REPO"
+        issue-term="title"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+
+
         const passwort2 = 190601;
         const Username2 = 1;
         let username='';
